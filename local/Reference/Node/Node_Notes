@@ -1,0 +1,16 @@
+Creating a new node.js project with Typescript
+-----------------------------------------------
+npm init -y <- creates a package.json
+create an index.ts file
+
+npm install typescript <- installs typescript in the project
+npx tsc --init <- creates a tsconfig.json
+tsc index.ts <- compiles the typescript file to a javascript file
+
+"outDir": "./dist" <- sets the location for the compiled javascript file
+
+tsc <- compiles to the dist folder
+
+npm i @types/node -D <- installs types for node
+
+npm install -g typescript@latest <- update typescript to the latest version

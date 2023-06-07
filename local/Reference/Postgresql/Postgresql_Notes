@@ -1,0 +1,13 @@
+service postgresql start
+service postgresql status
+
+Default user for postgresql
+
+sudo su postgres <- logs you in ubuntu with the username postgres
+psql <-postgresql shell
+\l <- displays all databases
+\du <- displays all users
+ALTER USER postgres WITH PASSWORD 'test123'; <- changes password for user postgres
+CREATE USER user_1 WITH PASSWORD 'test123'; <- creates a new user
+ALTER USER user_1 with SUPERUSER; <- adds a superuser role for user_1
+DROP USER user_1; <- removes a user
